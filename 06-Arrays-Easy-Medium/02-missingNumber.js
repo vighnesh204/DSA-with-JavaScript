@@ -26,6 +26,20 @@ const result = singleNumber(nums);
 console.log(result);
 
 // const singleNumber = (nums) => {
+//     nums.sort((a, b) => a - b );
+
+//     for (let i = 0; i < nums.length; i++) {
+//        if(nums[i] !== i){
+//         return i;
+//        }
+  
+//     }
+
+//     return nums.length;  
+// }
+
+
+// const singleNumber = (nums) => {
 //     let n = nums.length;
 //     for (let i = 0; i < nums.length; i++) {
 //         if (nums[i] < n) {
